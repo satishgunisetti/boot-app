@@ -18,6 +18,6 @@ public class PageController {
 
     @GetMapping
     public String hello(){
-        return String.format("<i>%s</i>", testService.getMessage());
+        return testService.getMessage();
     }
 }
